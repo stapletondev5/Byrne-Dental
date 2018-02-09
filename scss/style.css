@@ -87,6 +87,24 @@ sub {
 img {
   border: 0; }
 
+.aboutP{
+  font-size: 16px;
+  color: #777777;
+  line-height: 2.2;
+  padding: 10px;
+
+  text-indent: 50px;
+  text-shadow: 1px 0px 4px rgba(255,255,255, 1);
+}
+
+
+#outside{
+   -webkit-box-shadow: 0px 7px 32px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 32px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 32px -4px rgba(0,0,0,0.75);
+
+}
+
 svg:not(:root) {
   overflow: hidden; }
 
@@ -220,6 +238,10 @@ th {
 
   img {
     max-width: 100% !important; }
+  
+  .lobby{
+    height: 800px !important; 
+  }
 
   p,
   h2,
@@ -6035,6 +6057,8 @@ body.blue {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    object-position: contain;
+    object-fit: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -6042,14 +6066,14 @@ body.blue {
     height: 100%;
     z-index: 1; }
   body.blue #myCarousel .item:before {
-    opacity: .7;
+    opacity: 0;
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: url(../img/banner-pattern.png) repeat;
+/*    background: url(../img/banner-pattern.png) repeat;*/
     background-color: rgba(25, 25, 25, 0.8);
     z-index: 2; }
   body.blue #myCarousel .fill {

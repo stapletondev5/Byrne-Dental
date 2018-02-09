@@ -6398,7 +6398,7 @@ body {
     height: 100%;
     z-index: 1; }
   body #myCarousel .item:before {
-    opacity: .7;
+    
     content: "";
     position: absolute;
     top: 0;
