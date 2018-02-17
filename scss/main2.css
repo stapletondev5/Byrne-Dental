@@ -8,6 +8,8 @@
 
 
 
+
+
 html {
   font-family: Proxima Nova, sans-serif;
   -ms-text-size-adjust: 100%;
@@ -8050,13 +8052,15 @@ body #myCarousel .carousel-caption .slider_btn {
 }
 body #myCarousel .carousel-caption h1.banner_heading {
   font-size: 45px;
-  font-weight: bolder;
+  font-weight: bold;
   margin-bottom: 30px;
   text-transform: uppercase;
+  color: black;
 }
 body #myCarousel .carousel-caption p.banner_txt {
-  font-size: 30px !important;
-  line-height: 80px;
+  font-size: 45px ;
+  margin-top: 120px !important;
+  color: black;
   text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 @media screen and (max-width: 1024px) {
@@ -8614,6 +8618,13 @@ body .about_title {
   margin-bottom: 30px;
   font-weight: bolder;
 }
+
+
+
+
+
+
+
 @media all and (min-width: 769px) and (max-width: 800px) {
   body .header-inner {
     height: auto;
@@ -8621,7 +8632,11 @@ body .about_title {
   body .header-inner .title {
     padding: 0px;
     margin-top: 5%;
+
   }
+
+}
+
 }
 @media all and (min-width: 569px) and (max-width: 768px) {
   body .header-inner {
@@ -9771,3 +9786,35 @@ body #login-reg .forms-right-icons .icon {
     margin: 5px 0px;
   }
 }
+/*================================================================*/
+/*========================CUSTOM MEDIA QUERIES====================*/
+/*================================================================*/
+@media (max-width: 1050px) {
+  body.blue #myCarousel .carousel-caption p.banner_txt {{
+  font-size: 5px !important;
+  }
+  
+}
+@media(max-width: 770px){
+/*display none email*/
+  #top-header > div > div > div > ul > li:nth-child(3){
+  display: none !important;
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -7,7 +7,7 @@ $(document).ready(function(){
         itemsMobile:[650,1],
         pagination:true,
         navigation:false,
-        slideSpeed:1000,
-        autoPlay:true
+        slideSpeed:2000,
+        autoPlay: 11000 
     });
 });
