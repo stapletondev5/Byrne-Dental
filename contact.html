@@ -64,8 +64,8 @@
                         <li><a href="index.html">Home</a></li>
                         <!-- <li><a href="features.html">Features</a></li> -->
                         <li><a href="about.html">About Us</a></li>
-                        <li><a href="testimonails.html">Testimonials</a></li>
-                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="whatWeDo.html">What We Do</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li> 
                         <li class="active"><a href="#contact">Contact</a></li>
                         <!-- <li><a href="login.html">Sign In</a></li>
                         <li><a href="registration.html">Sign Up</a></li> -->
@@ -105,7 +105,10 @@
 
 
             <div class="row contact-wrap">
-                <div class="status alert alert-success" style="display: none"></div>
+                <div id="form-messages" class="text-center">
+                    <!-- <p class="success">We have received your mail, We will get back to you soon!</p>
+                    <p class="error">Sorry, Message not send! Please try again.</p> -->
+                </div>
                 <form id="main-contact-form" class="contact-form" name="contact-form" method="POST" action="insert.php">
                     <div class="col-sm-5 col-sm-offset-1">
                         <div class="form-group">
@@ -118,7 +121,7 @@
                         </div>
                         <div class="form-group">
                             <label>Phone</label>
-                            <input type="number" class="form-control">
+                            <input name="phone" type="number" class="form-control">
                         </div>
                             <div class="form-group">
                             <label>Subject *</label>
@@ -189,15 +192,16 @@
                         <h4>Contact Information</h4>
                         <hr/>
                        <ul class="footer-links">
-                            <li>Fax: 01 8212563</li>
+                            <!-- <li>Fax: 01 8212563</li> -->
                             <a href="tel:018212499">
                                 <li>Phone: 01 8212499</li>
                             </a>
                             <a href="tel:0868218898">
                                 <li>Emergency: 0868218898</li>
                             </a>
+                            
                             <a href="mailto:Castleknockdentalsurgery@gmail.com">
-                                <li>Email: Castleknockdentalsurgery@gmail.com</li>
+                                <li> Castleknockdentalsurgery@gmail.com</li>
                             </a>
 
                         </ul>
@@ -247,7 +251,7 @@
                             <li><a href="index.html">Home</a></li>
                             <li><a href="about.html">About Us</a></li>         
                             <li><a href="testimonials.html">Testimonials</a></li>                            
-                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="whatWeDo.html">What We Do</a></li>
                          <!--    <li><a href="#">Sign In</a></li>
                             <li><a href="#">Sign Up</a></li> -->
                         </ul>
@@ -293,16 +297,17 @@
         <a class="open" href="#"><span><i class="fa fa-gear fa-spin"></i></span></a>
     </div> -->
 
-    
+
     <script src="script/google.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHlpsR-U7rS_x6DixKN7I_KuBs6OZLLEk&callback=myMap"></script>
-     <script src="script/wow.min.js"></script>
+    <script src="script/wow.min.js"></script>
               <script>
               new WOW().init();
               </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="./script/index.js"></script>
+        <script src="./script/app.js"></script>
   
 </body>
 

@@ -1,6 +1,8 @@
-html{
-	  font-family: Proxima Nova, sans-serif !important;
 
+
+html{
+	 font-family: Proxima Nova, sans-serif !important;
+	touch-action: none;
 }
 
 

@@ -11,3 +11,6 @@ $(document).ready(function(){
         autoPlay: 11000 
     });
 });
+
+
+
