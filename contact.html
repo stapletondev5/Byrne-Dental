@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact</title>
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
      <link rel="stylesheet" href="scss/main.css">
     <link rel="stylesheet" href="scss/skin.css">
@@ -24,13 +24,14 @@
     <section id="top-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-sm-8 col-xs-8 top-header-links">
+                <div class="col-md-12 col-sm-12 col-xs-8 top-header-links">
                     <ul class="contact_links">
-                        <li><i class="fa fa-phone"></i><a href="tel:(01) 8212499">(01) 8212499</a></li>
+                        <li><i class="fa fa-phone"></i><a href="tel:(01)8212499">(01)8212499</a></li>
                         <li><i class="fa fa-phone"></i><a href="tel:0868218898">Emergency: 0868218898</a></li>
                         <li><i class="fa fa-envelope"></i><a href="mailto:Castleknockdentalsurgery@gmail.com">Castleknockdentalsurgery@gmail.com</a></li>
                     </ul>
                 </div>
+
                 <!-- <div class="col-md-4 col-sm-4 col-xs-4 social">
                     <ul class="social_links">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -42,7 +43,7 @@
                 </div> -->
             </div>
         </div>
-        </div>
+        
 
     </section>
 
@@ -57,14 +58,14 @@
 				<span class="icon-bar"></span>
 			  </button>
                     <a class="navbar-brand" href="index.html">
-                        <h1>Byrne</h1><span>Castleknock Dental</span></a>
+                        <h1>Dental</h1><span>Castleknock Surgury</span></a>
                 </div>
                 <div id="navbar" class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li><a href="index.html">Home</a></li>
                         <!-- <li><a href="features.html">Features</a></li> -->
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="whatWeDo.html">What We Do</a></li>
+<!--                         <li><a href="about.html">About Us</a></li>
+ -->                        <li><a href="whatWeDo.html">What We Do</a></li>
                         <li><a href="testimonials.html">Testimonials</a></li> 
                         <li class="active"><a href="#contact">Contact</a></li>
                         <!-- <li><a href="login.html">Sign In</a></li>
@@ -76,11 +77,13 @@
         </nav>
         <!--/.nav-ends -->
     </header>
-    <section id="top_banner">
-        <div class="banner">
-            <div class="inner text-center">
-                <h2><span>Message</span> Us below if you have any questions!</h2>
-            </div>
+
+
+    <section id="top_banner" >
+        <div class="banner" style="background-image: url('img/contactBanner.jpg'); background-size: 100% 100%; padding: 150px 0 ">
+            <!-- <div class="inner text-center">
+                <h2><span>Message</span> Us below if you have any questions</h2>
+            </div> -->
         </div>
    <!--      <div class="page_info">
             <div class="container">
@@ -95,11 +98,12 @@
 
         </div> -->
     </section>
+
     <section id="contact-page">
         <div class="container">
             <div class="section-heading text-center">
                 <h2>Send us a <span>Message</span></h2>
-                <p class="subheading">If you have any questions, comments or would like to schedule an appointment. Please fill out the form below or give us a call!</p>
+                <p class="subheading">Please fill out the form below or give us a call if you have any questions, comments, or would like to schedule an appointment. </p>
             </div>
 
 
@@ -120,8 +124,8 @@
                             <input type="email" name="email" class="form-control" required="required">
                         </div>
                         <div class="form-group">
-                            <label>Phone</label>
-                            <input name="phone" type="number" class="form-control">
+                            <label>Phone *</label>
+                            <input name="phone" type="number" class="form-control" required="required">
                         </div>
                             <div class="form-group">
                             <label>Subject *</label>
@@ -163,18 +167,25 @@
                         <div class="col-sm-7 map-content">
                             <ul class="row">
                                 <li class="col-sm-6">
-                                    <address>
-									<h5>Head Office</h5>									                            
+                                  
+									<h5>Location</h5>	
+                        								                            
                                     <p>Exchange House <br> 
                                         Main Street <br>
                                         Castleknock <br>
                                         Dublin 15. <br>
                                   
-                                </address>
+                                
 
                                 </li>
                                 <li class="col-sm-6">
-                                
+                                    <h5>Hours of Operation</h5>
+
+                                    <p>Monday: 9am - 6pm <br>
+                                        Tuesday: 9am - 6pm <br>
+                                        Wednesday: 9am - 6pm <br>
+                                        Thursday: 9am - 6pm <br>
+                                        Friday: 9am - 6pm</p>
 
                                 </li>
                             </ul>
@@ -199,7 +210,7 @@
                             <a href="tel:0868218898">
                                 <li>Emergency: 0868218898</li>
                             </a>
-                            
+
                             <a href="mailto:Castleknockdentalsurgery@gmail.com">
                                 <li> Castleknockdentalsurgery@gmail.com</li>
                             </a>
@@ -249,9 +260,10 @@
                         <hr/>
                         <ul class="footer-links">
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About Us</a></li>         
+<!--                             <li><a href="about.html">About Us</a></li>   -->
+                            <li><a href="whatWeDo.html">What We Do</a></li>       
                             <li><a href="testimonials.html">Testimonials</a></li>                            
-                            <li><a href="whatWeDo.html">What We Do</a></li>
+                            
                          <!--    <li><a href="#">Sign In</a></li>
                             <li><a href="#">Sign Up</a></li> -->
                         </ul>

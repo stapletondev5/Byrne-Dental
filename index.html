@@ -5,7 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Home</title>
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <meta name="Castleknock Dental Surgery" content="Professional Dental Care">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Daniel Stapleton">
+
+
+
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <link rel="stylesheet" href="scss/main.css">
@@ -13,11 +20,13 @@
     <link rel="stylesheet" href="scss/animate.min.css">
     <link rel="stylesheet" href="scss/style.css">
     <link rel="stylesheet" href="scss/main2.css">
+    <link rel="stylesheet" href="scss/test.css">
      <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico">
     <!-- Font styles -->
     <link rel="stylesheet" href="./scss/fonts/fonts.css">
     <link rel="stylesheet" href="./scss/sample.css">
+
 
    
     
@@ -27,12 +36,16 @@
 <body id="wrapper">
 
 
+
+           
+
+
     <section id="top-header">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-8 top-header-links">
                     <ul class="contact_links">
-                        <li><i class="fa fa-phone"></i><a href="tel:(01) 8212499">(01) 8212499</a></li>
+                        <li><i class="fa fa-phone"></i><a href="tel:(01)8212499">(01) 8212499</a></li>
                         <li><i class="fa fa-phone"></i><a href="tel:0868218898">Emergency: 0868218898</a></li>
                         <li><i class="fa fa-envelope"></i><a href="mailto:Castleknockdentalsurgery@gmail.com">Castleknockdentalsurgery@gmail.com</a></li>
                     </ul>
@@ -47,7 +60,7 @@
                     </ul>
                 </div> -->
             </div>
-        </div>
+        
         </div>
 
     </section>
@@ -64,13 +77,13 @@
 				<span class="icon-bar"></span>
 			  </button>
                         <a class="navbar-brand" href="index.html">
-                            <h1>Byrne</h1><span>Castleknock Dental</span></a>
+                            <h1>Dental</h1><span>Castleknock Surgery</span></a>
                     </div>
                     <div id="navbar" class="collapse navbar-collapse navbar-right">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="#">Home</a></li>
 <!--                             <li><a href="features.html">Features</a></li> -->
-                            <li><a href="about.html">About Us</a></li>
+                            <!-- <li><a href="about.html">About Us</a></li> -->
                             <li><a href="whatWeDo.html">What We Do</a></li>
                             <li><a href="testimonials.html">Testimonials</a></li>                           
                             <li><a href="contact.html">Contact</a></li>
@@ -84,6 +97,25 @@
         </nav>
     </header>
     <!--/.nav-ends -->
+ <img src="img/bg_2.jpg" alt="Background Image" style=" position: fixed; z-index: 0; width: 100%;">
+
+
+
+
+
+
+    <!-- <div class="parallax parallax-window" data-parallax="scroll"  ></div>
+ -->
+
+
+
+
+
+
+
+
+
+
 
     <div id="myCarousel" class="">
         <!-- Indicators -->
@@ -111,15 +143,14 @@
                 </div>
             </div>
 
-
-            <a class="smoth-scroll" href="#features">
-                <div>
-                    <div class="arrow arrow-1"></div>
-                    
-                        
-                    <div class="arrow arrow-2"></div>
-                </div>
-            </a>
+            
+            <a href="#features">
+                <svg class=" smoth-scroll arrows">
+                            <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                            <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                            <path class="a3" d="M0 40 L30 72 L60 40"></path>
+                        </svg>
+  </a>
   
 <!-- 
             <div class="item">
@@ -160,32 +191,41 @@
             <span class="sr-only">Next</span>
         </a> -->
 
-
+</div>
     </div>
+
+
+
+
+
 
     <section id="features">
         <div class="container text-center">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-xs-12 block">
+                <div class="col-lg-4 col-md-4 col-xs-12">
                     
-                    <div class="col-md-10 col-xs-10 wow slideInUp" data-wow-duration=".5s">
+                    <div class=" wow slideInUp" data-wow-duration=".5s">
                         <h4>Confident</h4>
-                        <p>Here at Byrne Dental, we are completely confident with our practice!
-                        We provide professional Dental Services to everyone!</p>
+                        <p>Here at Castleknock Dental we are completely confident with our practice.<br>
+                        We provide professional Dental Services to everyone. <br> No query is too big or small, we are always happy to help and put your queries at ease.</p>
 <!--                         <a href="#" class="readmore">Read More <i class="fa fa-caret-right"></i></a>
  -->                    </div>
                 </div>
-                <div class=" col-lg-4 col-md-4 col-xs-12 block">
-                    <div class="col-md-10 col-xs-10 wow slideInUp" data-wow-duration=".7s">
+                <div class=" col-lg-4 col-md-4  col-xs-12">
+
+                    <div class="wow slideInUp" data-wow-duration=".7s">
                         <h4>Trusting</h4>
-                        <p>We have been in this establishment over 15 years. Affordable pricing for everyone!</p>
+                        <p>We have been in this establishment for over 20 years. <br>We offer affordable
+                        pricing for everyone. </p>
 <!--                         <a href="#" class="readmore">Read More <i class="fa fa-caret-right"></i></a>
  -->                    </div>
                 </div>
-                <div class=" col-lg-4 col-md-4 col-xs-12 block">
-                    <div class="col-md-10 col-xs-10 wow slideInUp" data-wow-duration=".9s">
+                <div class=" col-lg-4 col-md-4 col-xs-12">
+
+                    <div class=" wow slideInUp" data-wow-duration=".9s">
                         <h4>Client Support</h4>
-                        <p>Always taking new and old clients. People from out of town are always welcome!</p>
+                        <p>
+                        Local friendly practice with patients from near and far. <br> We have a number 4 generations of families as our clients, which speaks volumes. <br>  Patient care and follow ups is a core part of our values – See our Testimonials.</p>
                         <!-- <a href="#" class="readmore">Read More <i class="fa fa-caret-right"></i></a> -->
                     </div>
                 </div>
@@ -208,26 +248,26 @@
                 <div class="text-block">
                     <div class="section-heading">
                         <h1>ABOUT <span>US</span></h1>
-                        <p class="subheading">A couple things you should know about us!</p>
+                        <p class="subheading">A couple things you should know about us.</p>
                     </div>
 
                     <ul class="aboutul">
-                        <li class="wow slideInRight" data-wow-duration=".7s"> <i class="fa fa-check"></i>We see all emergency patients on the same day and offer oral and intra venous sedation for nervous patients!</li>
+                        <li class="wow slideInRight" data-wow-duration=".5s"> <i class="fa fa-check"></i>We have a digitalized x-ray system that allows immediate viewing on the computer screen and cuts down on radiation.</li>
                         
-                        <li class="wow slideInRight" data-wow-duration=".9s"> <i class="fa fa-check"></i>We have a digitalized x ray system that allows immediate viewing on the computer screen and cuts down on radiation.</li>
+                        <li class="wow slideInRight" data-wow-duration=".7s"> <i class="fa fa-check"></i>For patients with the appropriate PPS, an annual checkup is free, and a checkup with a clean costs only €15.</li>
 
-                        <li class="wow slideInRight" data-wow-duration="1.1s"> <i class="fa fa-check"></i>Patients with the appropriate PPS, a check up once a year is free and a check up and clean costs only 40 euro.</li>
+                        <li class="wow slideInRight" data-wow-duration=".9s"> <i class="fa fa-check"></i>Surgery is open Monday - Friday. However, we can accommodate patients in the evening and at weekends.</li>
 
-                        <li class="wow slideInRight" data-wow-duration="1.3s"> <i class="fa fa-check"></i>Please call us if you have a specific query or for a quote!</li>
+                        <li class="wow slideInRight" data-wow-duration="1.1s"> <i class="fa fa-check"></i>We see all emergency patients on the same day, and we offer oral sedation for nervous patients.</li>
 
-                        <li class="wow slideInRight" data-wow-duration="1.5s"> <i class="fa fa-check" ></i>You are promised an efficient, friendly and quality service!</li>
+                        <li class="wow slideInRight" data-wow-duration="1.3s"> <i class="fa fa-check"></i>You are promised an efficient, friendly, and quality service.</li>
 
-                        <li class="wow slideInRight" data-wow-duration="1.7s"> <i class="fa fa-check"></i>Surgery is open, Monday - Friday, but we will be able to accommodate patients in the evening and at weekends!</li>
+                        <li class="wow slideInRight" data-wow-duration="1.5s"> <i class="fa fa-check"></i>Please call us if you have a specific query or for a quote.</li>
                     </ul>
 
-                    <a href="about.html">
-                        <button type="button" class="btn btn-primary slide wow fadeInRightBig" data-wow-duration="2.0s">Learn More  <i class="fa fa-caret-right"></i> </button>
-                    </a>
+                    
+                        <a href="whatWeDo.html" type="button" class="btn btn-primary slide wow fadeInRightBig" data-wow-duration="2.0s">Learn More  <i class="fa fa-caret-right"></i> </a>
+           
 
 
                 </div>
@@ -235,71 +275,282 @@
         </div>
     </section>
 
-<!-- 
-    <section id="process">
+
+
+<!-- <div id="scene"">
+  <div data-depth="0.2"> <img src="img/bg_2.jpg" alt="background-image"></div>
+  <div data-depth="0.6"><img src="img/bg_2.jpg" alt="background-image"></div>
+</div> -->
+
+ <section id="team-member">
         <div class="container">
-            <div class="section-heading text-center">
-                <div class="col-md-12 col-xs-12">
-                    <h1>What <span>We Do</span></h1>
-                    <p class="subheading">Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum ea utamur impetus fuisset nam nostrud euismod volumus ne mei.</p>
+            <div class="row">
+                <div class="col-lg-12 xol-md-12 col-sm-12 col-xs-12">
+                    <div class="section-heading text-center">
+                        <h1>Our <span>Team</span></h1>
+                        <p class="subheading">Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum ea utamur impetus fuisset nam nostrud euismod volumus ne mei.</p>
+                    </div>
+                    <div class="wpb_column vc_column_container col-md-3 col-sm-6 col-xs-6 block mybox">
+                        <div class="vc_column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="our-team main-info-below-image">
+                                    <div class="our-team-inner">
+                                        <div class="our-team-image">
+                                            <img src="img/team-4.jpg" />
+                                            <div class="qodef-circle-animate"></div>
+                                            <div class="our-team-position-icon">
+                                                <span class="qodef-icon-shortcode circle">
+                    <i class="qodef-icon-simple-line-icon qodef-icon-element fa fa-cog"></i>
+            </span>
+                                            </div>
+                                            <h6 class="q_team_position">Developer</h6>
+                                        </div>
+                                        <div class="our-team-info">
+                                            <div class="our-team-title-holder">
+                                                <h5 class="our-team-name">Lorem Ipsum</h5>
+                                            </div>
+                                            <div class='our-team-text-inner'>
+                                                <div class='our-team-description'>
+                                                    <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container col-md-3 col-sm-6 col-xs-6 block mybox">
+                        <div class="vc_column-inner">
+                            <div class="wpb_wrapper">
+                                <div class="our-team main-info-below-image">
+                                    <div class="our-team-inner">
+                                        <div class="our-team-image">
+                                            <img src="img/team-4.jpg" />
+                                            <div class="qodef-circle-animate"></div>
+                                            <div class="our-team-position-icon">
+                                                <span class="qodef-icon-shortcode circle">
+                        <i class="qodef-icon-simple-line-icon fa fa-pencil qodef-icon-element"></i>
+                        </span>
+                                            </div>
+                                            <h6 class="q_team_position">Graphic Designer</h6>
+                                        </div>
+                                        <div class="our-team-info">
+                                            <div class="our-team-title-holder">
+                                                <h5 class="our-team-name">Lorem Ipsum</h5>
+                                            </div>
+                                            <div class='our-team-text-inner'>
+                                                <div class='our-team-description'>
+                                                    <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container col-md-3 col-sm-6 col-xs-6 block mybox">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="our-team main-info-below-image">
+                                    <div class="our-team-inner">
+                                        <div class="our-team-image">
+                                            <img src="img/team-4.jpg" />
+                                            <div class="qodef-circle-animate"></div>
+                                            <div class="our-team-position-icon">
+                                                <span class="qodef-icon-shortcode circle">        
+                            <i class="qodef-icon-simple-line-icon fa fa-hashtag qodef-icon-element"></i>
+                    </span>
+                                            </div>
+                                            <h6 class="q_team_position">Accountant</h6>
+                                        </div>
+                                        <div class="our-team-info">
+                                            <div class="our-team-title-holder">
+                                                <h5 class="our-team-name">Lorem Ipsum</h5>
+                                            </div>
+                                            <div class='our-team-text-inner'>
+                                                <div class='our-team-description'>
+                                                    <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container col-md-3 col-sm-6 col-xs-6 block mybox">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="our-team main-info-below-image">
+                                    <div class="our-team-inner">
+                                        <div class="our-team-image">
+                                            <img src="img/team-4.jpg" />
+                                            <div class="qodef-circle-animate"></div>
+                                            <div class="our-team-position-icon">
+                                                <span class="qodef-icon-shortcode circle ">
+                                <i class="qodef-icon-simple-line-icon fa fa-wrench qodef-icon-element" ></i>
+                        </span>
+                                            </div>
+                                            <h6 class="q_team_position">Engineer</h6>
+                                        </div>
+                                        <div class="our-team-info">
+                                            <div class="our-team-title-holder">
+                                                <h5 class="our-team-name">Lorem Ipsum</h5>
+                                            </div>
+                                            <div class='our-team-text-inner'>
+                                                <div class='our-team-description'>
+                                                    <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            div class="row">
-                <div class="col-md-3 col-sm-6 block process-block">
-                    <div class="process-icon-holder">
-                        <div class="process-border">
-                            <span class="process-icon"><a href="#"><i class="fa fa-lightbulb-o feature_icon"></i></a></span></div>
-                        <div class="clearfix"></div>
-                    </div>
-
-                    <div class="process-text-block">
-                        <h4><a href="#">Idea</a></h4>
-                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 block process-block">
-                    <div class="process-icon-holder">
-                        <div class="process-border">
-                            <span class="process-icon"><a href="#"><i class="fa fa-cloud-download feature_icon"></i></a></span></div>
-                        <div class="clearfix"></div>
-                    </div>
-
-                    <div class="process-text-block">
-                        <h4><a href="#">Concept</a></h4>
-                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 block process-block">
-                    <div class="process-icon-holder">
-                        <div class="process-border">
-                            <span class="process-icon"><a href="#"><i class="fa fa-magic feature_icon"></i></a></span></div>
-                        <div class="clearfix"></div>
-                    </div>
-
-                    <div class="process-text-block">
-                        <h4><a href="#">Design</a></h4>
-                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum</p>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 block process-block lastchild">
-                    <div class="process-icon-holder">
-                        <div class="process-border">
-                            <span class="process-icon"><a href="#"><i class="fa fa-cog feature_icon"></i></a></span></div>
-                        <div class="clearfix"></div>
-                    </div>
-
-                    <div class="process-text-block">
-                        <h4><a href="#">Develop</a></h4>
-                        <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum</p>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </section>
+    
 
- -->
+<!--========================== OUR team Line break============================= -->
+
+<div class="container-fluid " id="teamLine">
+    
+</div>
+
+
+
+    <section id="about-page-section-3">
+        <div class="container">
+            <div class="row">
+                <div class="">
+                    <div class="col-xs-10 col-sm-10 col-md-7 col-lg-7 text-align ">
+                        <div class="section-heading">
+                            <h2 class="panel-heading"><em>The <span>History</span> of my Profession</em></h2>
+
+
+    <!--                         <h4 class="subheading wow fadeInLeftBig" data-wow-duration=".6s"><em>The History of my Profession.</em></h4>
+     -->                    </div>
+                    </div>   
+
+                        <div class="text-inner">
+                            <div class="col-xs-10 col-sm-9 col-md-7 col-lg-7 text-block">
+
+
+                                <p class="aboutP" >
+                                    I took over the practice in 2000, and since then, I have been dedicated to providing effcient, friendly, and quality service. Located in the centre of Castleknock village, we are a family orientated practice and we pride ourselves in our modern approach to treatment. We have a digitalized x-ray system that allows immediate viewing on the computer screen and cuts down on radiation. A full mouth scan using an OPG machine gives a picture of the teeth and supporting structures. This can detect gum problems, decay and helps with deciding how to treat wisdom teeth.
+                                </p> 
+
+                            </div>   
+                        </div>
+                            
+                            <div class=" col-sm-3 col-md-5 col-lg-5">
+
+                                <img id="outside" src="img/sign.jpg" class="attachment-full img-responsive " alt="">
+                                <br>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container" id="section2">
+            <div class="row">
+                <div class=" col-sm-3 col-md-5 col-lg-5">
+
+                        <img  id="outside" src="img/ken2ndRoom.jpg" class="attachment-full img-responsive" alt="">
+
+                </div>
+
+
+                        <!-- Picture break -->
+
+                <br>    
+                <br>
+                
+
+
+                <div class="col-xs-10 col-sm-9 col-md-7 col-lg-7">
+
+
+                        <p class="aboutP">
+                          
+                           We believe that prevention is better than cure. At each visit, we provide a full oral cancer screen; early treatment of gum problems and fissure sealants; as well as early detection of orthodontic issues. All of this makes for a lifetime of good dental health. We also provide cosmetic dental treatment including bleaching and bonding, veneers, crowns and implants, and dentures.
+                        </p> 
+                                
+                </div>  
+               <!-- Picture break -->
+
+                <br>    
+                <br>
+                
+    
+            </div>
+            
+
+        </div>
+
+
+         <div class="container">
+            <div class="row text-inner">
+                
+
+                     <div class="col-xs-10 col-sm-9 col-md-7 col-lg-7 text-block">
+
+                         <!--break -->
+
+
+                <br>    
+                <br>
+                    <div class="text-inner">
+                        <p class="aboutP">
+                            Sometimes patients are understandably nervous and we do our best to put them at ease. In this case, discussing the treatment and talking a soft slow approach usually works. Sedation is an option for more difficult procedures, such as wisdom teeth extractions.  For patients with the appropriate PPS contributions, an annual checkup is free, and a checkup and with a clean costs only €15. Without PPS, the cost is €75. This is the only treatment required for a lot of our patients, so as you can see, the costs are generally minimal.
+                            <br>
+                            <br>
+                    </div>
+                            <img  id="outside" src="img/chair.jpg" class="attachment-full img-responsive" alt="">
+
+                        </p>
+                        
+                            
+                        
+                    </div>
+
+
+
+                    <div class=" col-sm-3 col-md-5 col-lg-5">
+
+                        <img  id="outside" src="img/lobby.jpeg" class="attachment-full img-responsive" alt="">
+                        <br>
+                        <p class=" aboutP"><em><span id="linkText">Click below to find out our practices and pricing.</span></em>
+                            
+                            <br>
+                        
+                                <a href="whatWeDo.html"><button type="button" class="btn btn-primary slide wow fadeInRightBig" data-wow-duration="1.1s">What We Do <i class="fa fa-caret-right"></i></button></a> 
+
+
+                          </p>
+
+                </div>
+           </div>
+       </div>             
+             
+
+
+                        
+    </section>
+
+
+
+
+
  
 
 <section id="footer">
@@ -329,11 +580,11 @@
                         <h4>Useful Links</h4>
                         <hr/>
                         <ul class="footer-links">
-                            <li><a href="about.html">About Us</a></li>           
-                            <li><a href="whatWeDo.html">What We Do</a></li>
+<!--                        <li><a href="about.html">About Us</a></li>           
+ -->                        <li><a href="whatWeDo.html">What We Do</a></li>
                             <li><a href="testimonials.html">Testimonials</a></li>
                             <li><a href="contact.html">Contact</a></li>
-                         <!--    <li><a href="#">Sign In</a></li>
+                        <!--<li><a href="#">Sign In</a></li>
                             <li><a href="#">Sign Up</a></li> -->
                         </ul>
                     </div>
@@ -420,9 +671,10 @@
               </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   
+    <script src="./script/app.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <script src="./script/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+        <script src="./script/index.js"></script>
 
 
 
