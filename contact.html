@@ -6,28 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <meta name="Castleknock Dental Surgery" content="Professional Dental Care">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Daniel Stapleton">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-     <link rel="stylesheet" href="scss/main.css">
-    <link rel="stylesheet" href="scss/skin.css">
-    <link rel="stylesheet" href="scss/animate.min.css">
-    <link rel="stylesheet" href="scss/style.css">
-    <link rel="stylesheet" href="scss/main2.css">
+<!--     <link rel="stylesheet" href="css/bootstrap.min.css"> -->    
+<!-- Font styles -->
+    <link rel="stylesheet" href="css/fonts/fonts.css">
+
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/main.css">
      <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico">
-    <!-- Font styles -->
-    <link rel="stylesheet" href="./scss/fonts/fonts.css">
+    
    
 </head>
 
-<body id="wrapper">
+<body id="wrapper" class="blue loaded">
 
     <section id="top-header">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-8 top-header-links">
                     <ul class="contact_links">
-                        <li><i class="fa fa-phone"></i><a href="tel:(01)8212499">(01)8212499</a></li>
-                        <li><i class="fa fa-phone"></i><a href="tel:0868218898">Emergency: 0868218898</a></li>
+                        <li><i class="fa fa-phone"></i><a href="tel:(01)8212499">(01) 821 2499</a></li>
+                        <li><i class="fa fa-phone"></i><a href="tel:0868218898">Emergency: 086 8218898</a></li>
                         <li><i class="fa fa-envelope"></i><a href="mailto:Castleknockdentalsurgery@gmail.com">Castleknockdentalsurgery@gmail.com</a></li>
                     </ul>
                 </div>
@@ -58,14 +61,14 @@
 				<span class="icon-bar"></span>
 			  </button>
                     <a class="navbar-brand" href="index.html">
-                        <h1>Dental</h1><span>Castleknock Surgury</span></a>
+                        <h1>Dental</h1><span>Castleknock Surgery</span></a>
                 </div>
                 <div id="navbar" class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li><a href="index.html">Home</a></li>
                         <!-- <li><a href="features.html">Features</a></li> -->
-<!--                         <li><a href="about.html">About Us</a></li>
- -->                        <li><a href="whatWeDo.html">What We Do</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="whatWeDo.html">What We Do</a></li>
                         <li><a href="testimonials.html">Testimonials</a></li> 
                         <li class="active"><a href="#contact">Contact</a></li>
                         <!-- <li><a href="login.html">Sign In</a></li>
@@ -142,7 +145,7 @@
                             <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
                         </div>
                         <div class="form-group">
-                            <button type="submit" name="submit" class="btn btn-default submit-button">Submit Message <i class="fa fa-caret-right"></i></button>
+                            <button type="submit" id="button" name="submit" class="btn btn-primary slide wow fadeInRightBig">Submit Message <i class="fa fa-caret-right"></i></button>
                         </div>
                     </div>
                 </form>
@@ -160,13 +163,11 @@
             <div class="gmap-area">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-5">
-                            <div  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="googleMap" class="gmap">
-                            </div>
+                        
                         </div>
                         <div class="col-sm-7 map-content">
                             <ul class="row">
-                                <li class="col-sm-6">
+                                <li class="col-sm-6 block">
                                   
 									<h5>Location</h5>	
                         								                            
@@ -178,18 +179,24 @@
                                 
 
                                 </li>
-                                <li class="col-sm-6">
+                                <li class="col-sm-6 block">
                                     <h5>Hours of Operation</h5>
 
                                     <p>Monday: 9am - 6pm <br>
                                         Tuesday: 9am - 6pm <br>
                                         Wednesday: 9am - 6pm <br>
                                         Thursday: 9am - 6pm <br>
-                                        Friday: 9am - 6pm</p>
+                                        Friday: 9am - 6pm   <br><br>
+                                        <h5>Emergency Hours: <br><br>
+                                        <span>Call Anytime</span></h5></p>
+
 
                                 </li>
                             </ul>
                         </div>
+                        <div class="col-sm-5">
+                            <div  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="googleMap" class="gmap">
+                            </div>
                     </div>
                 </div>
             </div>
@@ -260,7 +267,7 @@
                         <hr/>
                         <ul class="footer-links">
                             <li><a href="index.html">Home</a></li>
-<!--                             <li><a href="about.html">About Us</a></li>   -->
+                            <li><a href="about.html">About Us</a></li>  
                             <li><a href="whatWeDo.html">What We Do</a></li>       
                             <li><a href="testimonials.html">Testimonials</a></li>                            
                             
@@ -284,7 +291,7 @@
                     <a href="#">Privacy Policy</a>
                     <a href="#">Terms of Use</a>
                 </div> -->
-                <div class="col-md-6 col-sm-6 col-xs-12 text-center copyright">
+                <div class="col-md-6 col-sm-6 col-xs-12 text-center">
                     Designed by <a target="_blank" href="http://www.stapletondev.com">Daniel Stapleton</a>
                 </div>
             </div>

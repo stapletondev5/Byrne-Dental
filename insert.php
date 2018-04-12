@@ -8,7 +8,7 @@ $phone = $_POST['phone'];
 // $type = $_POST['type'];
 $message = $_POST['message'];
 $formcontent=" From: $name \n\n Phone: $phone \n\n Message: $message";
-$recipient = "stapletondev5@gmail.com";
+$recipient = "Castleknockdentalsurgery@gmail.com";
 $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");

@@ -69,12 +69,23 @@ function changeColor(color) {
     $('#wrapper').removeClass();
     $('#wrapper').addClass(color);
 }
-
+// window.onload = function() {
+//   document.querySelector('body').className = 'loaded';
+// };
 // parallax
-var scene = document.getElementById('scene');
-var parallaxInstance = new Parallax(scene, {
-  relativeInput: true
+// var parallax
+// var scene = document.getElementById('scene');
+// var parallaxInstance = new Parallax(scene, {
+//   relativeInput: true
+// });
+// parallaxInstance.friction(0.2, 0.2);
+
+
+$(document).ready(function() {
+    
+    setTimeout(function(){
+        $('body').addClass('loaded');
+        $('h1').css('color','#222222');
+    }, 1000);
+    
 });
-parallaxInstance.friction(0.2, 0.2);
-
-

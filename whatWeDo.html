@@ -6,22 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>What We Do</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <meta name="Castleknock Dental Surgery" content="Professional Dental Care">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Daniel Stapleton">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <link rel="stylesheet" href="scss/animate.min.css">
-    <link rel="stylesheet" href="scss/style.css">
+<!--  <link rel="stylesheet" href="css/bootstrap.min.css"> -->    
+<!-- Font styles -->
+    <link rel="stylesheet" href="css/fonts/fonts.css">
 
-    <link rel="stylesheet" href="scss/main.css">
-    <link rel="stylesheet" href="scss/skin.css">
-    <link rel="stylesheet" href="scss/main2.css">
-    
-
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/main.css">
      <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico">
-    <!-- Font styles -->
-    <link rel="stylesheet" href="./scss/fonts/fonts.css">
+    
     <link href="https://file.myfontastic.com/B7jgMaxmd4YtWFXEeYwyPS/icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="./scss/fonts/icons.css">
+    <link rel="stylesheet" href="css/fonts/icons.css">
 
 
    
@@ -30,15 +29,18 @@
 
 </head>
 
-<body id="wrapper">
+<body id="wrapper" class="blue loaded">
+    <!--  <img src="img/bg_2.jpg" alt="Background Image" style=" position: fixed; z-index: 0; width: 100%;">
+ -->
+
 
     <section id="top-header">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-8 top-header-links">
                     <ul class="contact_links">
-                        <li><i class="fa fa-phone"></i><a href="tel:(01)8212499">(01)8212499</a></li>
-                        <li><i class="fa fa-phone"></i><a href="tel:0868218898">Emergency: 0868218898</a></li>
+                        <li><i class="fa fa-phone"></i><a href="tel:(01)8212499">(01) 821 2499</a></li>
+                        <li><i class="fa fa-phone"></i><a href="tel:0868218898">Emergency: 086 8218898</a></li>
                         <li><i class="fa fa-envelope"></i><a href="mailto:Castleknockdentalsurgery@gmail.com">Castleknockdentalsurgery@gmail.com</a></li>
                     </ul>
                 </div>
@@ -74,8 +76,8 @@
                     <ul class="nav navbar-nav">
                         <li><a href="index.html">Home</a></li>
                         <!-- <li><a href="features.html">Features</a></li> -->
-<!--                         <li><a href="about.html">About Us</a></li>
- -->                        <li class="active"><a href="whatWeDo.html">What We Do</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li class="active"><a href="whatWeDo.html">What We Do</a></li>
                         <li><a href="testimonials.html">Testimonials</a></li> 
                         <li><a href="contact.html">Contact</a></li>
                         <!-- <li><a href="login.html">Sign In</a></li>
@@ -89,9 +91,13 @@
     </header>
 
     <section id="top_banner">
-        <div class="banner" style="background-image: url('img/oceanBanner.jpg');">
+        <div class="banner" style="background-image: url('./img/logobanner3.jpg'); background-repeat: no-repeat;
+                  background-size: cover;
+                  padding: 150px 0px;
+                  background-position: 100% 25%;
+                  position: relative;">
             <div class="inner text-center">
-                <h2>What We Do</h2>
+       <!--          <h2>What We Do</h2> -->
             </div>
         </div>
 <!--         <div class="page_info">
@@ -132,8 +138,8 @@
                                 <div class="panel-heading" role="tab" id="headingTweleve">
                                     <h4 class="panel-title">
                                         
-                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTweleve" aria-expanded="false" aria-controls="collapseTweleve">
-                                            <div class="icon-circle"> <i class="icon-clipboard-with-check-marks"></i></div>
+                                        <a  class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTweleve" aria-expanded="false" aria-controls="collapseTweleve">
+                                            <div  class="icon-circle"> <i class="icon-clipboard-with-check-marks"></i></div>
                                             &emsp;
 
                                     EXAMINATION / <em>€15 - €45</em>
@@ -646,8 +652,8 @@
                         <h4>Useful Links</h4>
                         <hr/>
                         <ul class="footer-links">
-<!--                        <li><a href="about.html">About Us</a></li>           
- -->                        <li><a href="whatWeDo.html">What We Do</a></li>
+                           <li><a href="about.html">About Us</a></li>           
+                            <li><a href="whatWeDo.html">What We Do</a></li>
                             <li><a href="testimonials.html">Testimonials</a></li>
                             <li><a href="contact.html">Contact</a></li>
                         <!--<li><a href="#">Sign In</a></li>
@@ -706,7 +712,7 @@
                     <a href="#">Privacy Policy</a>
                     <a href="#">Terms of Use</a>
                 </div> -->
-                <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12 text-center copyright">
+                <div class="col-xl-12 col-md-12 col-sm-12 col-xs-12 text-center">
                     Designed by <a target="_blank" href="http://www.stapletondev.com">Daniel Stapleton</a>
                 </div>
        <!--      </div> -->
@@ -736,9 +742,12 @@
               <script>
               new WOW().init();
               </script>
+                  <script src="script/jquery.min.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="./script/index.js"></script>
+
 
 
 
