@@ -10707,7 +10707,7 @@ body #login-reg .forms-right-icons .icon {
 }
 .teamImages{
   height: 250px;
-  width: 200px;
+  width: 100%;
   object-fit: cover;
   -webkit-box-shadow: 11px 13px 31px -9px rgba(0,0,0,0.55);
 -moz-box-shadow: 11px 13px 31px -9px rgba(0,0,0,0.55);
@@ -10791,7 +10791,7 @@ transition: transform .2s;
 }
 @media (max-width: 1000px) {
   .outside,
-  .teamImages,
+
   .arrows,
   #top_banner{
     display: none;
