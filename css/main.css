@@ -10,7 +10,8 @@
 *{
   font-family: "Proxima Nova", sans-serif;
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%; 
+
 
  }
 
@@ -21,9 +22,12 @@
 
 
 html, body {
-  margin: 0;
+  margin: 0 auto;
+ 
 }
-
+body{
+     overflow-x: hidden;
+}
 article,
 aside,
 details,
@@ -9373,7 +9377,7 @@ body #team-member .our-team.main-info-below-image .our-team-image {
 body #team-member .our-team.main-info-below-image .our-team-image img {
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
-  border-radius: 100%;
+  border-radius: 10%;
 }
 @media all and (max-width: 480px) {
   body #team-member .our-team.main-info-below-image .our-team-image {
@@ -9600,7 +9604,7 @@ body #faq .panel-title a {
   text-decoration: none;
   color: #777777;
   text-transform: capitalize;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
 }
 body #faq .more-less {
@@ -10698,7 +10702,7 @@ body #login-reg .forms-right-icons .icon {
 }
 
 #frontImage{
-     height: 100vh;
+    height: 100vh;
     position: relative;
     background-size: cover;
     max-width: 100%;
@@ -10706,20 +10710,24 @@ body #login-reg .forms-right-icons .icon {
     background-size: 100% 100%
 }
 .teamImages{
+
   height: 250px;
   width: 100%;
   object-fit: cover;
   -webkit-box-shadow: 11px 13px 31px -9px rgba(0,0,0,0.55);
--moz-box-shadow: 11px 13px 31px -9px rgba(0,0,0,0.55);
-box-shadow: 11px 13px 31px -9px rgba(0,0,0,0.55);
-transition: transform .2s;
+  -moz-box-shadow: 11px 13px 31px -9px rgba(0,0,0,0.55);
+  box-shadow: 11px 13px 31px -9px rgba(0,0,0,0.55);
+  object-position: top;
+/*transition: transform .2s;*/
+}
+#katie{
+  object-position: -20px;
 }
 
-
-.teamImages:hover{
+/*.teamImages:hover{
   transform: scale(1.2);
 
-}
+}*/
 #practice,
 .outside{
 
@@ -10739,14 +10747,18 @@ transition: transform .2s;
     max-height: 100%;
     object-fit: cover;
   }
-   .teamBackground {
 
-    padding: 50px;
-    background-color: rgba(0,0,0, 0.1);
-    position: relative;
-    box-shadow: 2px 1px 16px 0px black;
+.teamBackground {
+background: #acb6e5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-size:cover;
+padding: 50px;
+/*background-color: rgba(0,0,0, 0.1);
+*/position: relative;
+box-shadow: 2px 1px 16px 0px black;
 
-  }
+}
 #button:hover{
   color: white;
     background-color: #159eee;
@@ -10757,6 +10769,15 @@ transition: transform .2s;
 .aboutPics{
   visibility: hidden;
   position: absolute;
+}
+#wrapper > header > nav{
+  z-index: 99;
+}
+#wrapper > img {
+  overflow-x: hidden;
+}
+#kenCloseup{
+  object-position: 0px;
 }
 
 /*================================================================*/
@@ -10780,15 +10801,6 @@ transition: transform .2s;
   }
   
 }
-@media(max-width: 770px){
-/*display none email*/
-  #top-header > div > div > div > ul > li:nth-child(3){
-  display: none !important;
-  }
-  
-  
-
-}
 @media (max-width: 1000px) {
   .outside,
 
@@ -10797,6 +10809,16 @@ transition: transform .2s;
     display: none;
   }
   
+}
+
+@media(max-width: 770px){
+/*display none email*/
+  #top-header > div > div > div > ul > li:nth-child(3){
+  display: none !important;
+  }
+ body #faq .panel-title a{
+    font-size: 14px;
+  }
 }
 
 
