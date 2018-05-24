@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -34,9 +34,9 @@
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-xs-8 top-header-links">
                     <ul class="contact_links">
-                        <li><i class="fa fa-phone"></i><a href="tel:(01) 8212499">(01) 821 2499</a></li>
-                        <li><i class="fa fa-phone"></i><a href="tel:0868218898">Emergency: 086 8218898</a></li>
-                        <li><i class="fa fa-envelope"></i><a href="mailto:Castleknockdentalsurgery@gmail.com">Castleknockdentalsurgery@gmail.com</a></li>
+                        <li><i class="fa fa-phone"></i><a href="tel:(01) 8212499" aria-label="Phone Number" title="Phone Number">(01) 821 2499</a></li>
+                        <li><i class="fa fa-phone"></i><a href="tel:0868218898" aria-label="Emergency Phone Number" title="Emergency Phone Number">Emergency: 086 8218898</a></li>
+                        <li><i class="fa fa-envelope"></i><a href="mailto:Castleknockdentalsurgery@gmail.com" aria-label="Castleknock Dental Surgery Email Address" title="Castleknock dental surgery email Address">Castleknockdentalsurgery@gmail.com</a></li>
                     </ul>
                 </div>
                 <!-- <div class="col-md-4 col-sm-4 col-xs-4">
@@ -64,17 +64,17 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			  </button>
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index.html" title="Click to go to the home page" aria-label="Click to go to the home page">
                         <h1>Dental</h1><span>Castleknock Surgery</span></a>
                 </div>
                 <div id="navbar" class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html" title="Click to go to the home page" aria-label="Click to go to the home page">Home</a></li>
                         <!-- <li><a href="features.html">Features</a></li> -->
-                        <li class="active"><a href="#about">About Us</a></li>
-                        <li><a href="whatWeDo.html">What We Do</a></li>
-                        <li><a href="testimonials.html">Testimonials</a></li> 
-                        <li><a href="contact.html">Contact</a></li>
+                        <li class="active"><a href="#about" title="Click to go to the about page" aria-label="Click to go to the about page">About Us</a></li>
+                        <li><a href="whatWeDo.html" title="Click to go to the what we do page" aria-label="Click to go to the what we do page">What We Do</a></li>
+                        <li><a href="testimonials.html" title="Click to go to the Testimonials page" aria-label="Click to go to the Testimonials page">Testimonials</a></li> 
+                        <li><a href="contact.html" title="Click to go to the Contact page" aria-label="Click to go to the Contact page">Contact</a></li>
                   <!--       <li><a href="login.html">Sign In</a></li>
                         <li><a href="registration.html">Sign Up</a></li> -->
                     </ul>
@@ -84,11 +84,13 @@
         </nav>
         <!--/.nav-ends -->
     </header>
-         <img src="img/bg_2.jpg" class="lazy" alt="Background Image" style=" height: 100%; position: fixed; z-index: 0; width: 100%; overflow: hidden;">
 
+        <section id="backgroundImage" >
+           <!--   <img src="img/bg_2.jpg" class="lazy" alt="Background Image" style=" height: 100%; position: fixed; z-index: 0; width: 100%; overflow: hidden; opacity: 0.5;">
+         -->
 
-    <section id="top_banner">
-        <div class="banner" class="lazy" style="background-image: url('img/outsideMain.jpg');">
+    <section id="top_banner" >
+        <div class="banner" class="lazy" alt="Out Side the Dental Office" style="background-image: url('img/outsideMain.jpg');">
             <div class="inner text-center">
                 <!-- <h2>About <span>Us </span>and our History.</h2> -->
             </div>
@@ -110,8 +112,8 @@
 
 
 
-    <section id="team-member">
-        <div class="container teamBackground" style="background-image: url('img/bg_2.jpg');">
+    <section id="team-member" data-type="background" data-speed="5">
+        <div class="container teamBackground" alt="background of a tile image">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="section-heading text-center">
@@ -126,7 +128,7 @@
                                 <div class="our-team main-info-below-image">
                                     <div class="our-team-inner">
                                         <div class="our-team-image">
-                                            <img class="teamImages lazy" id="kenCloseup" src="img/kenCloseup.jpg" />
+                                            <img alt="picture of Ken Byrne" class="teamImages lazy" id="kenCloseup" src="img/kenCloseup.jpg" />
                                             <!-- <div class="qodef-circle-animate"></div>
                                             <div class="our-team-position-icon">
                                                 <span class="qodef-icon-shortcode circle">
@@ -158,7 +160,7 @@
                                 <div class="our-team main-info-below-image">
                                     <div class="our-team-inner">
                                         <div class="our-team-image">
-                                            <img class="teamImages lazy img-responsive img-circle" src="img/viv.jpg" />
+                                            <img alt="Picture of Vivienne Hayes" class="teamImages lazy img-responsive img-circle" src="img/viv.jpg" />
                                             <!-- <div class="qodef-circle-animate"></div>
                                             <div class="our-team-position-icon">
                                                 <span class="qodef-icon-shortcode circle">        
@@ -190,7 +192,7 @@
                                 <div class="our-team main-info-below-image">
                                     <div class="our-team-inner">
                                         <div class="our-team-image">
-                                            <img class="teamImages lazy" src="img/Christelle.jpg" />
+                                            <img alt="Picture of Christelle" class="teamImages lazy" src="img/Christelle.jpg" />
                                             <!-- <div class="qodef-circle-animate"></div>
                                             <div class="our-team-position-icon">
                                                 <span class="qodef-icon-shortcode circle ">
@@ -219,14 +221,15 @@
                     </div>
                 </div>
 
-                        
-                    <div class="wpb_column vc_column_container col-md-4 col-sm-6 col-xs-6 block mybox">
+             <div class="row">
+             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">       
+                    <div class="wpb_column vc_column_container col-md-offset-2 col-md-4 col-sm-6 col-xs-6 block mybox pad">
                         <div class="vc_column-inner">
                             <div class="wpb_wrapper">
                                 <div class="our-team main-info-below-image">
                                     <div class="our-team-inner">
                                         <div class="our-team-image">
-                                            <img class="teamImages lazy" src="img/Darrelle.jpg" />
+                                            <img alt="Picture of Darrelle" class="teamImages lazy" src="img/Darrelle.jpg" />
                                             <!-- <div class="qodef-circle-animate"></div>
                                             <div class="our-team-position-icon">
                                                 <span class="qodef-icon-shortcode circle">
@@ -252,13 +255,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="wpb_column vc_column_container col-md-4 col-sm-6 col-xs-6 block mybox">
+                    <div class="wpb_column vc_column_container col-md-4 col-sm-6 col-xs-6 block mybox pad">
                         <div class="vc_column-inner ">
                             <div class="wpb_wrapper">
                                 <div class="our-team main-info-below-image">
                                     <div class="our-team-inner">
                                         <div class="our-team-image">
-                                            <img class="teamImages lazy" id="katie" src="img/katie2.jpg" />
+                                            <img alt="Picture of Katie" class="teamImages lazy" id="katie" src="img/katie2.jpg" />
                                            <!--  <div class="qodef-circle-animate"></div>
                                             <div class="our-team-position-icon">
                                                 <span class="qodef-icon-shortcode circle">        
@@ -270,7 +273,8 @@
                                         <div class="our-team-info">
                                             <div class="our-team-title-holder">
                                                 <h3><span>Katie Burke</span></h3>
-                                                <h5 class="our-team-name">Dental Surgeon</h5>
+                                                <h5 class="our-team-name">Dental Surgeon
+                                                </h5>
                                             </div>
                                             <div class='our-team-text-inner'>
                                                 <div class='our-team-description'>
@@ -315,7 +319,7 @@
                         </div> 
                     </div>-->
                 </div>
-
+            </div>    
         </div>
     </section>
 <!-- 
@@ -330,7 +334,7 @@
 
 
     <section id="about-page-section-3">
-        <div class="container">
+        <div class="container" id="aboutUs">
             <div class="row">
                 <div class="">
                     <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 text-align ">
@@ -350,7 +354,7 @@
 
 
                         <div class="text-inner">
-                            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 text-block">
+                            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 text-block aboutUs">
                                 
                                 <img  id="practice" src="img/lobby.jpeg" class="aboutPics attachment-full img-responsive lazy" alt="Lobby">
 
@@ -384,7 +388,7 @@
             <div class="row">
                 <div class=" col-sm-3 col-md-5 col-lg-5">
 
-                        <img  id="practice" src="img/ken2ndRoom.jpg" class="outside attachment-full img-responsive lazy" alt=" Ken's 2nd Dental room">
+                        <img id="practice" src="img/ken2ndRoom.jpg" class="outside attachment-full img-responsive lazy" alt=" Ken's 2nd Dental room">
 
                 </div>
 
@@ -695,13 +699,13 @@
                         <hr/>
                        <ul class="footer-links">
                            <!--  <li>Fax: 01 8212563</li> -->
-                            <a href="tel:018212499">
+                            <a href="tel:018212499" title="Phone Number" aria-label="phone number">
                                 <li>Phone: 01 8212499</li>
                             </a>
-                            <a href="tel:0868218898">
+                            <a href="tel:0868218898" title="Emergency Phone Number" aria-label="Emergency phone number">
                                 <li>Emergency: 0868218898</li>
                             </a>
-                            <a href="mailto:Castleknockdentalsurgery@gmail.com">
+                            <a href="mailto:Castleknockdentalsurgery@gmail.com" title="Email Address" aria-label="Email Address">
                                 <li>Castleknockdentalsurgery@gmail.com</li>
                             </a>
                         </ul>
@@ -713,10 +717,10 @@
                         <h4>Useful Links</h4>
                         <hr/>
                         <ul class="footer-links">
-                       <li><a href="about.html">About Us</a></li>           
-                        <li><a href="whatWeDo.html">What We Do</a></li>
-                            <li><a href="testimonials.html">Testimonials</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                       <li><a href="about.html" title="Click to go to the 'about' page" aria-label="Click to go to the 'about' page">About Us</a></li>           
+                        <li><a href="whatWeDo.html" title="Click to go to the 'what we do' page" aria-label="Click to go to the 'about' page">What We Do</a></li>
+                            <li><a href="testimonials.html" title="Click to go to the 'Testimonials' page" aria-label="Click to go to the 'Testimonials' page">Testimonials</a></li>
+                            <li><a href="contact.html" title="Click to go to the 'contact' page" aria-label="Click to go to the 'contact' page">Contact</a></li>
                         <!--<li><a href="#">Sign In</a></li>
                             <li><a href="#">Sign Up</a></li> -->
                         </ul>
@@ -765,7 +769,7 @@
 
 
     </section>
-
+</section>
     <section id="bottom-footer">
         <div class="container">
             <div class="row">
@@ -774,7 +778,7 @@
                     <a href="#">Terms of Use</a>
                 </div> -->
                 <div class="col-md-6 col-sm-6 col-xs-12 text-center">
-                    Designed by <a target="_blank" href="http://www.stapletondev.com">Daniel Stapleton</a>
+                    Designed by <a title="Daniel Stapleton Web Design" aria-label="Daniel Stapleton Web Design" target="_blank" href="http://www.stapletondev.com">Daniel Stapleton</a>
                 </div>
             </div>
         </div>

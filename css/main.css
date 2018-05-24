@@ -11,6 +11,8 @@
   font-family: "Proxima Nova", sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; 
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
 
 
  }
@@ -8636,7 +8638,8 @@ body #myCarousel .carousel-control {
   z-index: 20;
 }
 body #features {
-  background-color: #fff;
+  background: url('../img/tile.jpg') 50% 0 fixed;
+  position: relative;
 }
 body #features i.feature_icon {
   font-size: 30px;
@@ -8648,6 +8651,7 @@ body #features a.readmore {
 body #about {
   background-color: #f9f9f9;
   position: relative;
+  border: solid black 1px;
 }
 body #about .section-block, body #about #features, body #about #process, body #about #testimonial, body #about #footer, body #about #about-page-section-3, body #about #skills, body #about #team-member, body #about #portfolio, body #about #faq, body #about #contact, body #about #contact-page, body #about #features-page .subsection1, body #features-page #about .subsection1, body #about #features-page .subsection2, body #features-page #about .subsection2, body #about #features-page .subsection3 .right-section, body #features-page .subsection3 #about .right-section, body #about #features-page .subsection3 .left-section, body #features-page .subsection3 #about .left-section, body #about #features-page .subsection4, body #features-page #about .subsection4, body #about #login-reg {
   padding: 50px 0px;
@@ -8680,6 +8684,7 @@ body #about .text-block {
   position: relative;
   top: 50%;
   box-shadow: 0px 0px 12px #ddd;
+  border: solid black 1px;
 }
 body #about .text-block li {
   padding: 0px;
@@ -8830,11 +8835,11 @@ body #testimonial .h1 {
     padding: 35px 25px 35px 50px;
     margin-bottom: 35px;
     background: #fff;
-    border: 1px solid #f0f0f0;
+    border: 1px solid black;
     position: relative;
     -webkit-box-shadow: 11px 13px 31px -9px rgba(0,0,0,0.55);
--moz-box-shadow: 11px 13px 31px -9px rgba(0,0,0,0.55);
-box-shadow: 11px 13px 31px -9px rgba(0,0,0,0.55);
+   -moz-box-shadow: 11px 13px 31px -9px rgba(0,0,0,0.55);
+    box-shadow: 11px 13px 31px -9px rgba(0,0,0,0.55);
 }
 .testimonial .testimonial-content:after{
     content: "";
@@ -8850,7 +8855,8 @@ box-shadow: 11px 13px 31px -9px rgba(0,0,0,0.55);
 .testimonial-content .testimonial-icon{
     width: 50px;
     height: 45px;
-    background: #ff4242;
+    background: white;
+    border: 1px solid black;
     text-align: center;
     font-size: 22px;
     color: #fff;
@@ -8861,7 +8867,7 @@ box-shadow: 11px 13px 31px -9px rgba(0,0,0,0.55);
 }
 .testimonial-content .testimonial-icon:before{
     content: "";
-    border-bottom: 16px solid #e41212;
+    border-bottom: 16px solid transparent;
     border-left: 18px solid transparent;
     position: absolute;
     top: -16px;
@@ -9163,7 +9169,8 @@ body #fulltitle .nav-link {
   margin-bottom: 10px;
 }
 body #about-page-section-3 {
-  background-color: #fff;
+  background: url('../img/tile.jpg') 50% 0 fixed;
+  position: relative;
 }
 body #about-page-section-3 .section-block, body #about-page-section-3 #features, body #about-page-section-3 #process, body #about-page-section-3 #testimonial, body #about-page-section-3 #footer, body #about-page-section-3 #about-page-section-3, body #about-page-section-3 #skills, body #about-page-section-3 #team-member, body #about-page-section-3 #portfolio, body #about-page-section-3 #faq, body #about-page-section-3 #contact, body #about-page-section-3 #contact-page, body #about-page-section-3 #features-page .subsection1, body #features-page #about-page-section-3 .subsection1, body #about-page-section-3 #features-page .subsection2, body #features-page #about-page-section-3 .subsection2, body #about-page-section-3 #features-page .subsection3 .right-section, body #features-page .subsection3 #about-page-section-3 .right-section, body #about-page-section-3 #features-page .subsection3 .left-section, body #features-page .subsection3 #about-page-section-3 .left-section, body #about-page-section-3 #features-page .subsection4, body #features-page #about-page-section-3 .subsection4, body #about-page-section-3 #login-reg {
   padding: 50px 0px;
@@ -9469,6 +9476,7 @@ body #top_banner .banner {
   padding: 150px 0px;
   background-position: 100% 60%;
   position: relative;
+  border-bottom: solid black 1px;
 }
 body #top_banner .page_info {
   padding: 20px 0px 10px;
@@ -9619,6 +9627,7 @@ body #contact {
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
+  border-top: black solid 1px;
 }
 body #contact .map-content {
   margin-top: 45px;
@@ -10292,7 +10301,7 @@ body #login-reg .forms-right-icons .icon {
 }
 #linkText{
   font-size: 18px !important;
-  font-weight: bold;
+  font-weight: 600;
 }
 /*PARALLAX*/
 
@@ -10707,7 +10716,13 @@ body #login-reg .forms-right-icons .icon {
     background-size: cover;
     max-width: 100%;
     background-position: center;
-    background-size: 100% 100%
+    background-size: 100% 100%;
+
+}
+#frontImg{
+  border-bottom: solid black 1px;
+
+
 }
 .teamImages{
 
@@ -10730,8 +10745,8 @@ body #login-reg .forms-right-icons .icon {
 }*/
 #practice,
 .outside{
-
-    -webkit-box-shadow: 11px 13px 31px -9px rgba(0,0,0,0.55);
+  border: 1px solid black;
+  -webkit-box-shadow: 11px 13px 31px -9px rgba(0,0,0,0.55);
   -moz-box-shadow: 11px 13px 31px -9px rgba(0,0,0,0.55);
   box-shadow: 11px 13px 31px -9px rgba(0,0,0,0.55);
 }
@@ -10749,15 +10764,13 @@ body #login-reg .forms-right-icons .icon {
   }
 
 .teamBackground {
-background: #acb6e5;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background-size:cover;
+background: url('../img/tile.jpg') 50% 0 fixed;
 padding: 50px;
 /*background-color: rgba(0,0,0, 0.1);
 */position: relative;
-box-shadow: 2px 1px 16px 0px black;
-
+/*box-shadow: 2px 1px 16px 0px black;
+*/
+box-shadow: 1px 1px 16px 0px black;
 }
 #button:hover{
   color: white;
@@ -10778,6 +10791,15 @@ box-shadow: 2px 1px 16px 0px black;
 }
 #kenCloseup{
   object-position: 0px;
+}
+
+#backgroundImage{
+  background: url("../img/tile.jpg") 50% 0 fixed;
+  position: relative;
+  background-repeat: repeat;
+}
+.pad{
+  padding-top: 25px;
 }
 
 /*================================================================*/
